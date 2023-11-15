@@ -2,10 +2,11 @@ import React from 'react'
 import Header from "./Header"
 import Footer from "./Footer"
 
-function MainLay() {
+function MainLay({children}) {
   return (
     <div>
         <Header/>
+        {children}
         <Footer/>
     </div>
   )
