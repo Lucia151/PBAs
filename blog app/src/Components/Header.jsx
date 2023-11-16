@@ -3,16 +3,18 @@ import  images  from "../Services/Logo.png"
 
 function Header() {
   return (
-    <section>
-        <header className="container mx-auto px-5 flex justify-between py--4">
+    <section className="sticky top-0 left-0 right-0 z-50 bg-white">
+        <header className="container mx-auto px-5 flex justify-between py-4 items-center">
             <div className="">
             <img src={images} alt="logo" className="w-30 h-16" />
             </div>
-            <div className="flex gap-x-9">
-              <ul className="flex gap-x-5">
-                <li>
-                  <a href="/">Home</a>
-                </li>
+            <div className="flex gap-x-9 items-center">
+              <ul className="flex gap-x-3 font-semibold">
+              <li>
+  <a href="/" >Home</a>
+  
+</li>
+
                 <li>
                   <a href="/">Article</a>
                 </li>
@@ -23,7 +25,7 @@ function Header() {
                   <a href="/">FAQs</a>
                 </li>
               </ul>
-              <button className="border-2 border-blue-500 px-6 py-2 rounded-full text-blue-500 font-semibold hover:bg-blue-500 hover:text">Sign in</button>
+              <button className="border-2 border-blue-500 px-6 py-2 rounded-full text-blue-500 font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300">Sign in</button>
             </div>
         </header>
     </section>
