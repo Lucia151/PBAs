@@ -5,8 +5,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div >
-      
+    <div className="App font-opensans" >
       <HomePage/>
     </div>
   )
