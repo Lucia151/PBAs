@@ -1,6 +1,6 @@
 import React from 'react';
 import MainLay from '../Components/MainLay';
-import Hero from "./container/Hero";
+import Hero from "../Pages/Hero";
 
 
 function HomePage() {
