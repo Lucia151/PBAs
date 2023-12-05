@@ -21,7 +21,7 @@ function Header() {
   };
 
   return (
-    <section>
+    <section classNameme= "sticky top-0 left-0 right-0 z-50 bg-white">
       <header className="container mx-auto px-5 flex justify-between py-4 items-center">
         <div className="">
           <img src={images} alt="logo" className="w-30 h-16" />
