@@ -12,4 +12,4 @@ function MainLay({children}) {
   )
 }
 
-export default MainLay
+export default MainLay  
